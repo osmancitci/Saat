@@ -3,12 +3,12 @@ const moment = require('./moment');
 class DeckboardClock {
 	constructor(props) {
 		this.setValue = props.setValue;
-		this.name = 'Clock';
+		this.name = 'Saat';
 		this.platforms = ['WINDOWS', 'LINUX'];
 
 		this.inputs = [
 			{
-				label: 'Display Time',
+				label: 'Gösterim Süresi',
 				value: 'clock-display-time',
 				icon: 'clock',
 				mode: 'custom-value',
@@ -16,11 +16,11 @@ class DeckboardClock {
 				color: '#1a1a1a',
 				input: [
 					{
-						label: 'Select Clock Format',
+						label: 'Saat Formatı',
 						type: 'input:select',
 						items: [
-							{ value: 'clock-12h', label: '12 Hour Format' },
-							{ value: 'clock-24h', label: '24 Hour Format' }
+							{ value: 'clock-12h', label: '12 Saat' },
+							{ value: 'clock-24h', label: '24 Saat' }
 						]
 					}
 				]
