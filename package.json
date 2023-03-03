@@ -1,0 +1,20 @@
+{
+    "name": "deckboard-saat",
+    "version": "1.1.1",
+    "description": "Saat",
+    "main": "index.js",
+    "scripts": {
+        "bundle": "webpack",
+        "build": "deckboard-kit --build",
+        "install": "deckboard-kit --install"
+    },
+    "author": "OsmanCitci",
+    "license": "MIT",
+    "dependencies": {
+        "babel-helpers": "^6.24.1",
+		    "deckboard-kit": "^0.3.0"
+    },
+	  "devDependencies": {
+    "deckboard-kit-cli": "^1.0.0"
+  }
+}
